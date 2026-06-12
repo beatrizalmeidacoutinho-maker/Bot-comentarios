@@ -1,21 +1,21 @@
 ﻿F12::
-Loop 100
+Loop 1000
 {
-   Loop 5
+   Loop 1000
    {
 	Send {Click Left}
 	Sleep 500
-	Send 😂
+	Send CASAL MOLHO
 	Sleep 200
 	Send {Enter Down} {Enter Up}
-	Sleep 5000
+	Sleep 105000
     }
 
 
 Send, {Ctrl Down}w{Ctrl Up}
 Sleep, 360000
-Run, Chrome.exe *Link para a pagina ou video*
+Run, Chrome.exe *https://www.instagram.com/p/DYx7kGXCZgr/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==*
 Sleep, 5000
 Send {Click Left}
-Sleep 5000
+Sleep 105000
 }
